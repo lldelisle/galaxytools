@@ -6,6 +6,7 @@
     <expand macro="requirements_hicup" />
 
     <command detect_errors="exit_code"><![CDATA[
+    echo "YES" &&
         ##Dealing with inputs
         @PAIRED-END_INPUT@
 
